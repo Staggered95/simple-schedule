@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Schedule</title>
+        <style>
+            .table1, .table2 {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                margin-bottom: 40px;
+                
+            }
+            th, td {
+                border-style: solid;
+                border-radius: 5px;
+                border-color: purple;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:link {
+                color: rgb(191, 64, 191);
+            }
+            a:hover {
+                color:  rgb(93, 63, 211);
+            }
+            a:visited{
+                color: antiquewhite;
+            }
+            a:active{
+                color: yellow;
+            }
+            body {
+                background-image: url('https://w0.peakpx.com/wallpaper/975/1015/HD-wallpaper-anime-girl-and-cool-starry-sky.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .t1a{
+                background-image: linear-gradient(rgba(128, 0, 128,0.5), rgba(93, 63, 211,0.5));
+            }
+            .t1b{
+                background-color:rgba(93, 63, 211,0.7);
+            }
+            .t2a{
+                background-image: linear-gradient(rgba(127, 0, 255,0.5),rgba(191, 64, 191,0.5));
+            }
+            .t2b{
+                background-color: rgba(93, 63, 211,0.7);
+            }
+            h2 {
+                color: rgb(137, 207, 240);
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+                color:blueviolet;
+            }
+          
+        </style>
+    </head>
+    <body>
+        <strong><h1>MY SCHEDULE</h1></strong>
+        <h2>Weekdays</h2>
+        <table class="table1">
+            <tr class="t1a">
+                <th>-</th>
+                <th>After<br>Returning</th>
+                <th>17:00 to 19:30</th>
+                <th>19:30 to 20:30</th>
+                <th>20:30 to 22:00</th>
+            </tr>
+            <tr>
+                <th class="t1a">Monday</th>
+                <td class="t1b">Japanese</td>
+                <td class="t1b">MTH</td>
+                <td class="t1b">Dinner</td>
+                <td class="t1b">Python</td>
+            </tr>
+            <tr>
+                <th class="t1a">Tuesday</th>
+                <td class="t1b">Japanese</td>
+                <td class="t1b">ECE</td>
+                <td class="t1b">Dinner</td>
+                <td class="t1b">CSE</td>
+            </tr>
+            <tr>
+                <th class="t1a">Wednesday</th>
+                <td class="t1b">Japanese</td>
+                <td class="t1b">MTH</td>
+                <td class="t1b">Dinner</td>
+                <td class="t1b">Python</td>
+            </tr>
+            <tr>
+                <th class="t1a">Thursday</th>
+                <td class="t1b">Japanese</td>
+                <td class="t1b">ECE</td>
+                <td class="t1b">Dinner</td>
+                <td class="t1b">Python</td>
+            </tr>
+            <tr>
+                <th class="t1a">Friday</th>
+                <td class="t1b">Japanese</td>
+                <td class="t1b">MTH</td>
+                <td class="t1b">Dinner</td>
+                <td class="t1b">CSE</td>
+            </tr>
+        </table>
+        <h2>Weekend</h2>
+        <table class="table2">
+            <tr class="t2a">
+            <th>-</th>
+            <th>8:00 to 12:00</th>
+            <th>12:00 14:00</th>
+            <th>14:00 to 16:00</th>
+            <th>16:00 to 20:00</th>
+            </tr>
+            <tr>
+                <th class="t2a">Saturday</th>
+                <td class="t2b">Python</td>
+                <td class="t2b">Free</td>
+                <td class="t2b">CSE</td>
+                <td class="t2b">Drawing</td>
+            </tr>
+            <tr>
+                <th class="t2a">Sunday</th>
+                <td class="t2b">Python<br>+<br>PES</td>
+                <td class="t2b">Free</td>
+                <td class="t2b">Japanese<br>or<br>CSE</td>
+                <td class="t2b">Free</td>
+            </tr>
+        </table>
+        <footer>
+            <div class="container">     <!--for aligning image with text vertically-->
+                <div class="image">
+                    <a href="https://ums.lpu.in/lpuums/" alt="UMS"><img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Lovely_Professional_University_logo.png" width="25px" height="25p"></a>
+                </div>
+                <div class="text">
+                    <a href="https://ums.lpu.in/lpuums/" alt="UMS">LPU website</a>
+                </div>
+            </div>
+            <div class="container">     <!--for aligning image with text vertically-->
+                <div class="image">
+                    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app" alt="FreeCodeCamp Website"><img src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0" width="25px" height="25p"></a>
+                </div>
+                <div class="text">
+                    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app" alt="FreeCodeCamp Website">FreeCodeCamp</a>
+                </div>
+            </div>
+        </footer>
+        <div>
+            <p>
+                Made by:Shubham Singh<br>
+                12320647<br>
+                B.Tech CSE<br>
+                Software used: Visual Studio<br>
+                END
+            </p>
+        </div>
+    </body>
+</html>
